@@ -1,0 +1,9 @@
+.venv
+tests
+loadtest
+scripts
+migrations
+*.md
+.env
+.env.*
+!.env.example

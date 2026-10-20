@@ -1,0 +1,51 @@
+# Secrets and local environment (keep .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.jks
+secrets/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Vercel
+.vercel/
+
+# Load test output
+loadtest/*.csv
+loadtest/*.html
+
+# Local logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Claude Code local-only settings
+.claude/settings.local.json
+CLAUDE.local.md
